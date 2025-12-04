@@ -1,91 +1,212 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omi Chauhan – Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Omi Chauhan — AI & Data Portfolio</title>
+
+  <!-- SEO / Social preview -->
+  <meta name="description" content="Omi Chauhan — B.Tech student at NIT Warangal. AI & Data enthusiast. Projects: predictive pricing, dashboards, AI workflows. Contact: omichauhan427@gmail.com" />
+  <meta property="og:title" content="Omi Chauhan — AI & Data Portfolio" />
+  <meta property="og:description" content="B.Tech at NIT Warangal. AI & Data Enthusiast. Internships, projects and contact." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/omichauhan-lgtm/omi-portfolio/main/preview.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- favicon (simple SVG data URI) -->
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2216%22 fill=%22%23111%22/><text x=%2250%22 y=%2258%22 font-size=%2248%22 font-family=%22Arial%22 fill=%22%23fff%22 text-anchor=%22middle%22>O</text></svg>' />
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- structured data (basic JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Omi Chauhan",
+    "email":"mailto:omichauhan427@gmail.com",
+    "jobTitle":"B.Tech Student — AI & Data Enthusiast",
+    "alumniOf":"National Institute of Technology Warangal",
+    "sameAs":["https://github.com/omichauhan-lgtm","https://www.linkedin.com/in/omichauhan/"]
+  }
+  </script>
 </head>
-<body>
-<header>
-    <div class="container">
-        <h1 class="name">Omi Chauhan</h1>
-        <p class="tagline">B.Tech Student • AI & Data Enthusiast • NIT Warangal</p>
-        <a href="mailto:omichauhanofficial@gmail.com" class="button">Contact Me</a>
+<body class="light">
+  <header class="topbar">
+    <div class="wrap">
+      <a class="logo" href="#hero">Omi<span class="dot">.</span></a>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        <a class="btn ghost" href="resume.pdf" download>Download Résumé</a>
+      </div>
     </div>
-</header>
+  </header>
 
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-        I’m a B.Tech student at <b>National Institute of Technology, Warangal</b> with a strong interest in 
-        <b>Artificial Intelligence, Data Analysis, Product Thinking, and Applied Machine Learning.</b>
-        I focus on building real-world, practical solutions—from automation tools to intelligent ML-driven apps.
-    </p>
-</section>
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <h1>Omi Chauhan</h1>
+          <p class="lead">B.Tech student at <strong>NIT Warangal</strong> — AI & Data enthusiast. I build ML-backed analytics, automation tools, and production-ready data pipelines.</p>
+          <div class="cta-row">
+            <a class="btn" href="mailto:omichauhan427@gmail.com">Contact Me</a>
+            <a class="btn outline" href="#projects">See Projects</a>
+          </div>
 
-<section id="experience" class="section">
-    <h2>Experience</h2>
-    <div class="card">
-        <h3>AI & Data Intern – Maxbyte Technologies</h3>
-        <p><i>May – June 2025</i></p>
-        <p>
-            Worked on AI automation, industrial data workflows, and ML-backed analysis models.  
-            Developed dashboards, wrote production-grade scripts, and contributed insights to live client use-cases.
-        </p>
+          <ul class="kpis">
+            <li><strong>1+</strong> SaaS-ready projects</li>
+            <li><strong>Interned</strong> Rajputana Vehicles</li>
+            <li><strong>Tools</strong> Python · Pandas · ML · Power BI</li>
+          </ul>
+        </div>
+
+        <aside class="hero-right">
+          <div class="card profile-card">
+            <!-- Replace profile.jpg in repo with your photo -->
+            <img src="profile.jpg" alt="Omi Chauhan" class="avatar" onerror="this.src='https://raw.githubusercontent.com/omichauhan-lgtm/omi-portfolio/main/profile-placeholder.png'"/>
+            <h3>Omi Chauhan</h3>
+            <p class="muted">Data & AI • NIT Warangal</p>
+            <div class="socials">
+              <a href="https://github.com/omichauhan-lgtm" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://www.linkedin.com/in/omichauhan/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="mailto:omichauhan427@gmail.com">Email</a>
+            </div>
+          </div>
+
+          <div class="card highlights">
+            <h4>Featured</h4>
+            <p>Predictive Pricing & Extrapolation — Python + visual dashboards. Ready to scale as a SaaS.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About</h2>
+        <p>I’m a B.Tech student at <strong>National Institute of Technology, Warangal</strong> with a passion for applied machine learning, data analytics and automation. I enjoy turning raw data into product-ready insights and building efficient workflows that save time and reveal opportunity.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="grid projects-grid">
+          <article class="card project">
+            <h3>Predictive Pricing & Extrapolation</h3>
+            <p>Python engine for pricing extrapolation, CSV automation and visual reporting — built for future SaaS deployment.</p>
+            <p class="tag">Python · Pandas · Matplotlib</p>
+            <a class="link" href="https://github.com/omichauhan-lgtm/omi-portfolio" target="_blank">Repo</a>
+          </article>
+
+          <article class="card project">
+            <h3>AI Workflows & Automation Tools</h3>
+            <p>Small CLI and scripts to automate reporting, content generation and data cleaning.</p>
+            <p class="tag">Scripts · Automation</p>
+          </article>
+
+          <article class="card project">
+            <h3>Data Dashboards</h3>
+            <p>Interactive dashboards & reporting templates for quick business insights.</p>
+            <p class="tag">Power BI · Excel</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="wrap">
+        <h2>Experience</h2>
+
+        <div class="card">
+          <h3>Data & Operations Intern — Rajputana Vehicles Pvt. Ltd.</h3>
+          <p class="muted">2024</p>
+          <p>Worked on data-driven operational analysis, reporting, and workflow optimization. Built scripts and dashboards to improve operational efficiency.</p>
+        </div>
+
+        <div class="card">
+          <h3>AI & Data Intern — Maxbyte Technologies</h3>
+          <p class="muted">May – June 2025</p>
+          <p>Contributed to AI automation workflows, production scripts and client dashboards.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrap contact-grid">
+        <div class="card">
+          <h2>Contact</h2>
+          <p>Have a project or opportunity? Reach out —</p>
+          <p><strong>Email:</strong> <a href="mailto:omichauhan427@gmail.com">omichauhan427@gmail.com</a></p>
+          <p><strong>Profile:</strong> <a href="https://github.com/omichauhan-lgtm" target="_blank">github.com/omichauhan-lgtm</a></p>
+          <div class="cta-row">
+            <a class="btn" href="mailto:omichauhan427@gmail.com">Email Me</a>
+            <a class="btn outline" href="resume.pdf" download>Download Résumé</a>
+          </div>
+        </div>
+
+        <div class="card alt">
+          <h3>Quick links</h3>
+          <ul class="list">
+            <li>GitHub repo for this site</li>
+            <li>Upload `profile.jpg` to replace placeholder</li>
+            <li>Upload `resume.pdf` to enable resume download</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Omi Chauhan • Built with ❤️ • <a href="https://omichauhan-lgtm.github.io/omi-portfolio" target="_blank">Live</a></p>
     </div>
-</section>
+  </footer>
 
-<section id="projects" class="section">
-    <h2>Highlighted Projects</h2>
+  <!-- Inline JS: theme toggle, small UX -->
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-    <div class="card">
-        <h3>📊 Predictive Pricing & Extrapolation System</h3>
-        <p>
-            Built a complete Python-based data extrapolation engine with visualization and CSV automation.  
-            Designed architecture ready for future SaaS deployment.
-        </p>
-    </div>
+    // theme toggle persists in localStorage
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+    const setIcon = () => themeToggle.textContent = body.classList.contains('dark') ? '☀️' : '🌙';
 
-    <div class="card">
-        <h3>🤖 AI Workflows & Automation Tools</h3>
-        <p>
-            Created multiple AI-powered utilities enhancing productivity, including content generators, 
-            dashboard scripts, and workflow pipelines.
-        </p>
-    </div>
+    // init theme from localStorage
+    const saved = localStorage.getItem('omi-theme');
+    if (saved === 'dark') body.classList.replace('light','dark');
 
-    <div class="card">
-        <h3>📈 Data Dashboards</h3>
-        <p>
-            Developed clean analytics dashboards using Python, Pandas, Matplotlib, and Excel automations.
-        </p>
-    </div>
-</section>
+    setIcon();
 
-<section id="skills" class="section">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-        <li>Python</li>
-        <li>Machine Learning</li>
-        <li>Data Analysis</li>
-        <li>AI Prompt Engineering</li>
-        <li>Automation</li>
-        <li>Power BI</li>
-        <li>Git & GitHub</li>
-    </ul>
-</section>
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      body.classList.toggle('light');
+      localStorage.setItem('omi-theme', body.classList.contains('dark') ? 'dark' : 'light');
+      setIcon();
+    });
 
-<section id="education" class="section">
-    <h2>Education</h2>
-    <div class="card">
-        <h3>B.Tech – National Institute of Technology Warangal</h3>
-        <p>2023 – Present</p>
-    </div>
-</section>
-
-<footer>
-    <p>© 2025 Omi Chauhan • Built with passion</p>
-</footer>
+    // smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script>
 </body>
 </html>
