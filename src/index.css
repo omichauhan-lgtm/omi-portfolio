@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-spotify-black text-white font-sans antialiased;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-spotify-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-spotify-light rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-spotify-grey;
+}
