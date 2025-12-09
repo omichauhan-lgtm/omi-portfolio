@@ -197,6 +197,16 @@ const About = () => {
                                 </div>
                             ))}
                         </div>
+
+                        {/* Certifications (Placeholder) */}
+                        <div className="mt-12">
+                            <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
+                                <GradientIcon icon={GraduationCap} preset="spotify-green" /> Certifications
+                            </h3>
+                            <div className="bg-spotify-dark p-6 rounded-xl border border-white/5 border-dashed flex flex-col items-center justify-center text-center">
+                                <p className="text-spotify-grey">Updated certifications coming soon.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
