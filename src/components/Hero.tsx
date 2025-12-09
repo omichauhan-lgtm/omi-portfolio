@@ -33,7 +33,7 @@ const Hero = () => {
                 className="z-10 text-center"
             >
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4">
-                    Omi Chauhan
+                    Omii Chauhan
                 </h1>
                 <p className="text-xl md:text-2xl text-spotify-grey font-light tracking-wide">
                     Full Stack Developer <span className="text-spotify-green mx-2">•</span> SaaS Builder

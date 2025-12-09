@@ -6,7 +6,7 @@ const Navbar = () => {
         { icon: <Home size={24} />, label: 'Home', href: '#' },
         { icon: <Code size={24} />, label: 'Projects', href: '#projects' },
         { icon: <User size={24} />, label: 'About', href: '#about' },
-        { icon: <Mail size={24} />, label: 'Contact', href: 'mailto:omichauhan427@gmail.com' },
+        { icon: <Mail size={24} />, label: 'Contact', href: '#contact' },
     ]
 
     return (
