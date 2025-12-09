@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Calendar, MapPin, Briefcase, GraduationCap, Code2, Database, Brain, Terminal, Shield, Target, Zap, BookOpen } from 'lucide-react'
+import { Calendar, MapPin, Briefcase, GraduationCap, Code2, Database, Brain, Terminal, Shield, Target, Zap, BookOpen, Cloud, Cpu, GitBranch, Server } from 'lucide-react'
 import GradientIcon from './ui/GradientIcon'
 
 const About = () => {
@@ -10,6 +10,10 @@ const About = () => {
         { name: "FastAPI & React", icon: <GradientIcon icon={Terminal} preset="spotify-green" size={16} />, level: "Advanced" },
         { name: "SQL & ETL Pipelines", icon: <GradientIcon icon={Database} preset="luxury-gold" size={16} />, level: "Expert" },
         { name: "C++ & Algorithms", icon: <GradientIcon icon={Code2} preset="cyber-cyan" size={16} />, level: "Intermediate" },
+        { name: "Machine Learning", icon: <GradientIcon icon={Cpu} preset="neon-purple" size={16} />, level: "Advanced" },
+        { name: "Docker & Cloud", icon: <GradientIcon icon={Cloud} preset="luxury-gold" size={16} />, level: "Intermediate" },
+        { name: "System Design", icon: <GradientIcon icon={Server} preset="spotify-green" size={16} />, level: "Intermediate" },
+        { name: "Git & DevOps", icon: <GradientIcon icon={GitBranch} preset="sunset-orange" size={16} />, level: "Advanced" },
     ]
 
     const traits = [
