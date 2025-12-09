@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Mail, Github, Linkedin } from 'lucide-react'
+import { Mail, Github, Linkedin, FileText } from 'lucide-react'
 
 const Contact = () => {
     return (
@@ -23,6 +23,15 @@ const Contact = () => {
                     >
                         <Mail size={20} />
                         Say Hello
+                    </a>
+
+                    <a
+                        href="resume.pdf"
+                        download="Omii_Chauhan_Resume.pdf"
+                        className="flex items-center gap-2 border-2 border-spotify-green text-spotify-green font-bold px-8 py-4 rounded-full hover:bg-spotify-green/10 transition-colors"
+                    >
+                        <FileText size={20} />
+                        Resume
                     </a>
 
                     <div className="flex gap-4">
