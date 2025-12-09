@@ -134,12 +134,6 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="pt-4 border-t border-white/5">
-                                    <h4 className="text-lg font-bold text-white">Higher Secondary (Class XII)</h4>
-                                    <h5 className="text-spotify-green">TSBIE</h5>
-                                    <div className="flex justify-between items-center mt-1 text-sm text-spotify-grey">
-                                        <span>2022</span>
-                                        <span>96%</span>
-                                    </div>
                                 </div>
                             </div>
                         </div>

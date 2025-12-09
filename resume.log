@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.7)  9 DEC 2025 03:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.7)  10 DEC 2025 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./resume.tex
-(resume.tex
+**./resume_cadp.tex
+(resume_cadp.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -322,16 +322,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+0.
 
-! LaTeX Error: Option clash for package hyperref.
+(C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(resume.aux)
+\openout1 = `resume.aux'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 
-     
-? ont Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -358,15 +358,15 @@ LaTeX Font Info:    ... okay on input line 20.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 736.64185pt, 54.2025pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=525.23788pt
-* \textheight=772.77686pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
-* \topmargin=-73.135pt
+* \textwidth=489.10287pt
+* \textheight=736.64185pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -416,67 +416,62 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout3 = `resume.out'.
 
 \big@size=\dimen170
-<nitw_logo.png, id=3, 345.29pt x 420.57124pt>
-File: nitw_logo.png Graphic file (type png)
-<use nitw_logo.png>
-Package pdftex.def Info: nitw_logo.png  used on input line 25.
-(pdftex.def)             Requested size: 56.9055pt x 69.30783pt.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 26.
+ 27.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 26.
+ 27.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 26.
+ 27.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 26.
+ 27.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 38.
+nput line 39.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 39.
+nput line 40.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 41.
+ input line 42.
 
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 41.
+n input line 42.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 58--59
+Overfull \hbox (15.0pt too wide) in paragraph at lines 59--60
 [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-5.
+6.
 (C:\Users\omich\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -487,7 +482,7 @@ h/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/omich/App
 Data/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/
 omich/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{
 C:/Users/omich/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5br
-ands0.enc} <./nitw_logo.png>] (resume.aux)
+ands0.enc}] (resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -496,22 +491,22 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12945 strings out of 474486
- 225670 string characters out of 5743755
- 1948542 words of memory out of 5000000
- 35075 multiletter control sequences out of 15000+600000
+ 12938 strings out of 474486
+ 225546 string characters out of 5743755
+ 1946542 words of memory out of 5000000
+ 35068 multiletter control sequences out of 15000+600000
  577129 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,324b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,329b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/omich/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/omich/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/omich/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/omich/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/omich/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (1 page, 150056 bytes).
+Output written on resume.pdf (1 page, 73916 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
