@@ -1,0 +1,126 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.5in,right=0.5in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{mathptmx} % Times New Roman font
+
+\pagenumbering{gobble} % Remove page numbers
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% List formatting
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+
+\begin{document}
+
+% Header
+\begin{minipage}[t]{0.65\textwidth}
+    \begin{minipage}[c]{0.2\textwidth}
+        \includegraphics[width=2cm]{nitw_logo.png} 
+    \end{minipage}
+    \begin{minipage}[c]{0.75\textwidth}
+        {\LARGE \textbf{OMII CHAUHAN}} \\[2pt]
+        Roll No.: 23MMB0A31 \\
+        B.Tech in Metallurgy and Material Sciences \\
+        National Institute of Technology, Warangal
+    \end{minipage}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \raggedleft
+    \small
+    \faPhone\ +91-9770845401 \\
+    \faEnvelope\ \href{mailto:oc23mmb0a31@student.nitw.ac.in}{oc23mmb0a31@student.nitw.ac.in} \\
+    \faEnvelope\ \href{mailto:omichauhan427@gmail.com}{omichauhan427@gmail.com} \\
+    \faGithub\ \href{https://github.com/omichauhan-lgtm}{omichauhan-lgtm} \\
+    \faLinkedin\ \href{https://www.linkedin.com/in/omichauhan/}{omichauhan}
+\end{minipage}
+
+\vspace{5pt}
+
+% Education
+\section*{EDUCATION}
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{National Institute of Technology, Warangal} & 2023 -- 2027 \\
+    \textit{B.Tech in Metallurgy and Material Sciences} & \\
+    \multicolumn{2}{c}{} \\
+    \textbf{Telangana State Board of Intermediate Education (Class XII)} & 2022 \\
+    \textit{Higher Secondary} & 96\% \\
+    \multicolumn{2}{c}{} \\
+    \textbf{Central Board of Secondary Education (Class X)} & 2020 \\
+    \textit{Secondary School} & 93\% \\
+\end{tabularx}
+
+% Experience
+\section*{EXPERIENCE}
+\textbf{Rajputana Vehicles Pvt. Ltd.} \hfill May 2025 -- June 2025 \\
+\textit{Data Analyst Intern} \hfill Madhya Pradesh, India
+\begin{itemize}
+    \item Developed "Python automation scripts" to streamline data processing, significantly reducing manual analysis time.
+    \item Performed "quality validation" on large datasets to ensure accuracy for strategic decision-making.
+    \item Designed "KPI dashboards" in Power BI to monitor performance metrics and automated monthly reporting.
+    \item Implemented "K-Means Clustering" to segment customers, enhancing targeted marketing efficiency.
+\end{itemize}
+
+% Personal Projects
+\section*{PERSONAL PROJECTS}
+\textbf{AutoSight SaaS} \hfill 2024 \\
+\textit{AI-Powered Automotive Market Analysis Platform}
+\begin{itemize}
+    \item \textbf{Tools \& Technologies:} FastAPI, React, PostgreSQL, Redis, Docker, \textbf{CI/CD}
+    \item Built a multi-tenant SaaS platform with "automated deployment pipelines (CI/CD)" for reliable updates.
+    \item Wrote "unit tests" to verify API reliability and ensure high-quality service delivery.
+    \item Integrated AI models to provide actionable insights into automotive market trends.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{Credit Risk Intelligence} \hfill 2024 \\
+\textit{Automated Credit Risk Assessment SaaS}
+\begin{itemize}
+    \item \textbf{Tools \& Technologies:} Python, Streamlit, Scikit-learn, Pandas
+    \item Developed an automated system to predict borrower default risks, ensuring "data integrity" and accuracy.
+    \item Created an interactive dashboard for real-time risk assessment and visualization.
+\end{itemize}
+
+% Technical Skills
+\section*{TECHNICAL SKILLS AND INTERESTS}
+\begin{itemize}
+    \item \textbf{Languages:} \textbf{Python}, \textbf{JavaScript/TypeScript}, C++, Java, SQL
+    \item \textbf{Frameworks \& Tools:} FastAPI, React, \textbf{Git/GitHub}, \textbf{CI/CD}, Docker
+    \item \textbf{Quality \& Automation:} \textbf{Test-Driven Development (TDD)}, Automated Testing, Unit Testing
+    \item \textbf{Cloud/Databases:} PostgreSQL, Redis
+    \item \textbf{Areas of Interest:} Quality Engineering, Automation, Game Development, Full Stack Development
+\end{itemize}
+
+% Positions of Responsibility
+\section*{POSITIONS OF RESPONSIBILITY}
+\textbf{PR Team Head, Technozion} \hfill 2023 -- 2024 \\
+\textit{Technical Fest, NIT Warangal}
+\begin{itemize}
+    \item Led the Public Relations team for one of South India's largest technical fests.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{Sponsorship Team Head, Springspree} \hfill 2023 -- 2024 \\
+\textit{Cultural Fest, NIT Warangal}
+\begin{itemize}
+    \item Managed corporate sponsorships and partnerships for the annual cultural fest.
+\end{itemize}
+
+% Achievements
+\section*{ACHIEVEMENTS}
+\begin{itemize}
+    \item \textbf{Electronic Arts (Forage):} Optimized "C++ codebase" by identifying and patching defects, enhancing overall game stability and "code quality". Proposed a new feature with a comprehensive design document.
+    \item \textbf{JPMorgan Chase (Forage):} Analyzed a loan book using "quantitative methods" and verified data accuracy. Implemented "dynamic programming" solutions to predict default probabilities effectively.
+    \item \textbf{Hackathons \& Competitions:} Active participant in coding competitions, focusing on "efficient and bug-free code".
+\end{itemize}
+
+\end{document}

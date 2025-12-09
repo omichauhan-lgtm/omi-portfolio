@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
-import { Mail, Github, Linkedin, FileText } from 'lucide-react'
+import { Mail, Github, Linkedin } from 'lucide-react'
+import GradientIcon from './ui/GradientIcon'
 
 const Contact = () => {
     return (
@@ -21,17 +22,8 @@ const Contact = () => {
                         href="mailto:omichauhan427@gmail.com"
                         className="flex items-center gap-2 bg-spotify-green text-black font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform"
                     >
-                        <Mail size={20} />
-                        Say Hello
-                    </a>
-
-                    <a
-                        href="resume.pdf"
-                        download="Omii_Chauhan_Resume.pdf"
-                        className="flex items-center gap-2 border-2 border-spotify-green text-spotify-green font-bold px-8 py-4 rounded-full hover:bg-spotify-green/10 transition-colors"
-                    >
-                        <FileText size={20} />
-                        Resume
+                        <GradientIcon icon={Mail} preset="luxury-gold" size={20} className="text-black" />
+                        <span className="text-black">Say Hello</span>
                     </a>
 
                     <div className="flex gap-4">
@@ -41,7 +33,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                             className="p-4 bg-white/10 rounded-full hover:bg-white/20 transition-colors text-white"
                         >
-                            <Github size={24} />
+                            <GradientIcon icon={Github} preset="luxury-gold" size={24} />
                         </a>
                         <a
                             href="https://www.linkedin.com/in/omichauhan/"
@@ -49,7 +41,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                             className="p-4 bg-white/10 rounded-full hover:bg-white/20 transition-colors text-white"
                         >
-                            <Linkedin size={24} />
+                            <GradientIcon icon={Linkedin} preset="luxury-gold" size={24} />
                         </a>
                     </div>
                 </div>

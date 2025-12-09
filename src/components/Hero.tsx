@@ -13,15 +13,17 @@ const Hero = () => {
                 transition={{ duration: 1, ease: "easeOut" }}
                 className="z-10 mb-8"
             >
-                <div className="w-48 h-48 border-4 border-white rounded-full flex items-center justify-center relative group cursor-pointer">
-                    <motion.span
-                        className="text-9xl font-light text-white group-hover:text-tesla-red transition-colors duration-300"
-                        animate={{ rotate: [0, 5, -5, 0] }}
-                        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                    >
-                        Ø
-                    </motion.span>
-                    <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-tesla-red/20 blur-xl transition-all duration-300" />
+                <div className="relative group cursor-default">
+                    {/* Ring Glow */}
+                    <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400/20 to-purple-500/20 rounded-full blur-2xl opacity-50 group-hover:opacity-75 transition-opacity duration-700" />
+
+                    {/* Main Circle */}
+                    <div className="w-32 h-32 md:w-40 md:h-40 border-[1px] border-white/20 rounded-full flex items-center justify-center relative backdrop-blur-sm bg-black/30 shadow-2xl transition-transform duration-700 group-hover:scale-105">
+                        {/* Text Logo */}
+                        <span className="text-6xl md:text-7xl font-thin tracking-tighter bg-gradient-to-br from-yellow-200 via-yellow-400 to-yellow-700 bg-clip-text text-transparent select-none" style={{ fontFamily: '"Outfit", sans-serif' }}>
+                            Ø
+                        </span>
+                    </div>
                 </div>
             </motion.div>
 

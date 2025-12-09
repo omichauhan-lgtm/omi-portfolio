@@ -1,0 +1,125 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.75in,right=0.75in,top=0.75in,bottom=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{mathptmx} % Times New Roman font
+
+\pagenumbering{gobble} % Remove page numbers
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+% List formatting
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+
+\begin{document}
+
+% Header
+\begin{minipage}[t]{0.65\textwidth}
+    \begin{minipage}[c]{0.2\textwidth}
+        % Placeholder for Logo - User needs to upload 'nitw_logo.png' to Overleaf
+        % \includegraphics[width=2cm]{nitw_logo.png} 
+        \framebox[2cm][c]{\rule{0pt}{2cm}Logo} 
+    \end{minipage}
+    \begin{minipage}[c]{0.75\textwidth}
+        {\LARGE \textbf{OMI CHAUHAN}} \\[2pt]
+        Roll No.: 23MMB0A31 \\
+        B.Tech in Metallurgy and Material Sciences \\
+        National Institute of Technology, Warangal
+    \end{minipage}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \raggedleft
+    \small
+    \faPhone\ +91-9770845401 \\
+    \faEnvelope\ \href{mailto:oc23mmb0a31@student.nitw.ac.in}{oc23mmb0a31@student.nitw.ac.in} \\
+    \faEnvelope\ \href{mailto:omichauhan427@gmail.com}{omichauhan427@gmail.com} \\
+    \faGithub\ \href{https://github.com/omichauhan-lgtm}{omichauhan-lgtm} \\
+    \faLinkedin\ \href{https://www.linkedin.com/in/omichauhan/}{omichauhan}
+\end{minipage}
+
+\vspace{10pt}
+
+% Education
+\section*{EDUCATION}
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{National Institute of Technology, Warangal} & 2023 -- 2027 \\
+    \textit{B.Tech in Metallurgy and Material Sciences} & \\
+    \multicolumn{2}{c}{} \\
+    \textbf{Central Board of Secondary Education (Class XII)} & 2022 \\
+    \textit{Higher Secondary} & 96\% \\
+    \multicolumn{2}{c}{} \\
+    \textbf{Central Board of Secondary Education (Class X)} & 2020 \\
+    \textit{Secondary School} & 93\% \\
+\end{tabularx}
+
+% Experience
+\section*{EXPERIENCE}
+\textbf{Rajputana Vehicles Pvt. Ltd.} \hfill May 2025 -- June 2025 \\
+\textit{Data Analyst Intern} \hfill Madhya Pradesh, India
+\begin{itemize}
+    \item Conducted in-depth market demand analysis and customer segmentation to identify key growth areas.
+    \item Analyzed regional vehicle trends using \textbf{Python (Pandas, NumPy)} to support strategic decision-making.
+    \item Developed \textbf{KPI dashboards} using Power BI to visualize monthly demand and performance metrics.
+    \item Implemented \textbf{K-Means Clustering} for advanced customer segmentation and targeted marketing.
+\end{itemize}
+
+% Personal Projects - ORDER MODIFIED FOR MARKETS
+\section*{PERSONAL PROJECTS}
+\textbf{Credit Risk Intelligence} \hfill 2024 \\
+\textit{Automated Credit Risk Assessment & Prediction Model}
+\begin{itemize}
+    \item \textbf{Tools \& Technologies:} Python, Scikit-learn, Pandas, Streamlit, Financial Modeling
+    \item Engineered a machine learning model to predict probability of default (PD) using historical borrower data (Logistic Regression).
+    \item Implemented statistical analysis to identify key risk factors and reduce false positive rates in credit scoring.
+    \item Built a real-time dashboard to visualize risk exposure and portfolio quality.
+\end{itemize}
+
+\vspace{5pt}
+
+\textbf{AutoSight SaaS} \hfill 2024 \\
+\textit{AI-Powered Automotive Market Analysis Platform}
+\begin{itemize}
+    \item \textbf{Tools \& Technologies:} FastAPI, React, PostgreSQL, Redis, Docker
+    \item Built a multi-tenant SaaS platform for demand forecasting and customer segmentation.
+    \item Integrated AI models to provide actionable insights into automotive market trends.
+\end{itemize}
+
+% Technical Skills - MODIFIED FOR MARKETS
+\section*{TECHNICAL SKILLS AND INTERESTS}
+\begin{itemize}
+    \item \textbf{Languages:} Python (Pandas/NumPy), C++ (STL), SQL, TypeScript
+    \item \textbf{Core Competencies:} Quantitative Analysis, Financial Modeling, Probability & Statistics, Data Visualization
+    \item \textbf{Technologies:} Scikit-learn, Power BI, FastAPI, React
+    \item \textbf{Areas of Interest:} Quantitative Finance, Algorithmic Trading, Market Risk, FinTech
+\end{itemize}
+
+% Positions of Responsibility
+\section*{POSITIONS OF RESPONSIBILITY}
+\textbf{PR Team Head, Technozion} \hfill 2023 -- 2024 \\
+\textit{Technical Fest, NIT Warangal}
+\begin{itemize}
+    \item Led the Public Relations team for one of South India's largest technical fests.
+\end{itemize}
+
+\vspace{5pt}
+
+\textbf{Sponsorship Team Head, Springspree} \hfill 2023 -- 2024 \\
+\textit{Cultural Fest, NIT Warangal}
+\begin{itemize}
+    \item Managed corporate sponsorships and partnerships for the annual cultural fest.
+\end{itemize}
+
+% Achievements
+\section*{ACHIEVEMENTS}
+\begin{itemize}
+    \item \textbf{JPMorgan Chase Forage Virtual Internship:} Gained practical experience in software engineering and fintech.
+\end{itemize}
+
+\end{document}

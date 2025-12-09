@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Github, ExternalLink, Play } from 'lucide-react'
 import { Project } from '../data/projects'
+import GradientIcon from './ui/GradientIcon'
 
 interface ProjectCardProps {
     project: Project
@@ -62,7 +63,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     rel="noopener noreferrer"
                     className="text-spotify-grey hover:text-white transition-colors flex items-center gap-1 text-sm"
                 >
-                    <Github size={16} /> Code
+                    <GradientIcon icon={Github} preset="spotify-green" size={16} /> Code
                 </a>
                 {project.demo && (
                     <a
@@ -71,7 +72,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                         rel="noopener noreferrer"
                         className="text-spotify-grey hover:text-white transition-colors flex items-center gap-1 text-sm"
                     >
-                        <ExternalLink size={16} /> Demo
+                        <GradientIcon icon={ExternalLink} preset="cyber-cyan" size={16} /> Demo
                     </a>
                 )}
             </div>

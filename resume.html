@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omi Chauhan - Resume</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11pt;
+            line-height: 1.3;
+            color: #000;
+            max-width: 210mm;
+            /* A4 width */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .header-left {
+            display: flex;
+            gap: 15px;
+        }
+
+        .logo-placeholder {
+            width: 80px;
+            height: 80px;
+            border: 1px dashed #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .header-info h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .header-info p {
+            margin: 2px 0;
+        }
+
+        .header-right {
+            text-align: right;
+            font-size: 10pt;
+        }
+
+        .header-right p {
+            margin: 2px 0;
+        }
+
+        .header-right i {
+            margin-right: 5px;
+        }
+
+        /* Sections */
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            padding-bottom: 2px;
+        }
+
+        /* Education Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 2px 0;
+            vertical-align: top;
+        }
+
+        .edu-year {
+            text-align: right;
+        }
+
+        .edu-grade {
+            text-align: right;
+        }
+
+        /* Experience & Projects */
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .entry-sub {
+            font-style: italic;
+            margin-bottom: 2px;
+        }
+
+        ul {
+            margin: 2px 0 8px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 2px;
+        }
+
+        /* Skills */
+        .skills-section p {
+            margin: 3px 0;
+        }
+
+        .skills-label {
+            font-weight: bold;
+        }
+
+        /* Print adjustments */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            @page {
+                margin: 1cm;
+            }
+        }
+    </style>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-left">
+            <!-- Placeholder for NIT Warangal Logo -->
+            <div class="logo-placeholder">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/37/NIT_Warangal_logo.png" alt="NITW Logo"
+                    style="width: 100%; height: auto;">
+            </div>
+            <div class="header-info">
+                <h1>Omi Chauhan</h1>
+                <p>Roll No.: xxxxxxx</p>
+                <p>B.Tech in Metallurgy and Material Sciences</p>
+                <p>National Institute of Technology, Warangal</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <p><i class="fas fa-phone"></i> +91-xxxxxxxxxx</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:omichauhan427@gmail.com">omichauhan427@gmail.com</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:officialemail@nitw.ac.in">officialemail@nitw.ac.in</a>
+            </p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/omichauhan-lgtm">omichauhan-lgtm</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/omichauhan/">omichauhan</a></p>
+        </div>
+    </div>
+
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <td><strong>National Institute of Technology, Warangal</strong><br><em>B.Tech in Metallurgy and Material
+                    Sciences</em></td>
+            <td class="edu-year">2023 – 2027<br>CGPA: xxx</td>
+        </tr>
+        <tr>
+            <td><strong>Your College Name (12th)</strong><br><em>Board of Intermediate Education, State</em></td>
+            <td class="edu-year">Year<br>Percentage: xxx</td>
+        </tr>
+        <tr>
+            <td><strong>Your School Name (10th)</strong><br><em>Board of Secondary Education, State</em></td>
+            <td class="edu-year">Year<br>CGPA/Percentage: xxx</td>
+        </tr>
+    </table>
+
+    <h2>Experience</h2>
+
+    <div class="entry-header">
+        <span>Rajputana Vehicles Pvt. Ltd.</span>
+        <span>May 2025 – June 2025</span>
+    </div>
+    <div class="entry-sub">Data Analyst Intern | Madhya Pradesh, India</div>
+    <ul>
+        <li>Conducted in-depth market demand analysis and customer segmentation to identify key growth areas.</li>
+        <li>Analyzed regional vehicle trends using <strong>Python (Pandas, NumPy)</strong> to support strategic
+            decision-making.</li>
+        <li>Developed <strong>KPI dashboards</strong> using Power BI to visualize monthly demand and performance
+            metrics.</li>
+        <li>Implemented <strong>K-Means Clustering</strong> for advanced customer segmentation and targeted marketing.
+        </li>
+    </ul>
+
+    <h2>Personal Projects</h2>
+
+    <div class="entry-header">
+        <span>AutoSight SaaS</span>
+        <span>Event dates</span>
+    </div>
+    <div class="entry-sub">AI-Powered Automotive Market Analysis Platform</div>
+    <ul>
+        <li><strong>Tools & Technologies:</strong> FastAPI, React, PostgreSQL, Redis, Docker</li>
+        <li>Built a multi-tenant SaaS platform for demand forecasting and customer segmentation.</li>
+        <li>Integrated AI models to provide actionable insights into automotive market trends.</li>
+    </ul>
+
+    <div class="entry-header">
+        <span>Credit Risk Intelligence</span>
+        <span>Event dates</span>
+    </div>
+    <div class="entry-sub">Automated Credit Risk Assessment SaaS</div>
+    <ul>
+        <li><strong>Tools & Technologies:</strong> Python, Streamlit, Scikit-learn, Pandas</li>
+        <li>Developed an automated system using machine learning to predict borrower default risks.</li>
+        <li>Created an interactive dashboard for real-time risk assessment and visualization.</li>
+    </ul>
+
+    <h2>Technical Skills and Interests</h2>
+    <div class="skills-section">
+        <p><span class="skills-label">Languages:</span> Python, C++, SQL, JavaScript/TypeScript</p>
+        <p><span class="skills-label">Frameworks:</span> FastAPI, React, Streamlit</p>
+        <p><span class="skills-label">Cloud/Databases:</span> PostgreSQL, Redis, Docker</p>
+        <p><span class="skills-label">Developer Tools:</span> Git, GitHub, VS Code</p>
+        <p><span class="skills-label">Areas of Interest:</span> Full Stack Development, Generative AI (LLMs), Data
+            Science, SaaS Building</p>
+    </div>
+
+    <h2>Positions of Responsibility</h2>
+
+    <div class="entry-header">
+        <span>PR Team Head, Technozion</span>
+        <span>Position tenure</span>
+    </div>
+    <div class="entry-sub">Technical Fest, NIT Warangal</div>
+    <ul>
+        <li>Led the Public Relations team for one of South India's largest technical fests.</li>
+    </ul>
+
+    <div class="entry-header">
+        <span>Sponsorship Team Head, Springspree</span>
+        <span>Position tenure</span>
+    </div>
+    <div class="entry-sub">Cultural Fest, NIT Warangal</div>
+    <ul>
+        <li>Managed corporate sponsorships and partnerships for the annual cultural fest.</li>
+    </ul>
+
+    <h2>Achievements & Certifications</h2>
+    <ul>
+        <li><strong>JPMorgan Chase Forage Virtual Internship:</strong> Gained practical experience in software
+            engineering and fintech.</li>
+    </ul>
+
+</body>
+
+</html>

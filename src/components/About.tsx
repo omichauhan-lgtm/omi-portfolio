@@ -1,14 +1,22 @@
 import { motion } from 'framer-motion'
-import { Calendar, MapPin, Briefcase, GraduationCap, Code2, Database, Brain, Terminal } from 'lucide-react'
+import { Calendar, MapPin, Briefcase, GraduationCap, Code2, Database, Brain, Terminal, Shield, Target, Zap, BookOpen } from 'lucide-react'
+import GradientIcon from './ui/GradientIcon'
 
 const About = () => {
     const skills = [
-        { name: "Full Stack SaaS", icon: <Code2 size={16} />, level: "Expert" },
-        { name: "Generative AI (LLMs)", icon: <Brain size={16} />, level: "Advanced" },
-        { name: "Python & Data Science", icon: <Database size={16} />, level: "Expert" },
-        { name: "FastAPI & React", icon: <Terminal size={16} />, level: "Advanced" },
-        { name: "SQL & ETL Pipelines", icon: <Database size={16} />, level: "Expert" },
-        { name: "C++ & Algorithms", icon: <Code2 size={16} />, level: "Intermediate" },
+        { name: "Full Stack SaaS", icon: <GradientIcon icon={Code2} preset="cyber-cyan" size={16} />, level: "Expert" },
+        { name: "Generative AI (LLMs)", icon: <GradientIcon icon={Brain} preset="neon-purple" size={16} />, level: "Advanced" },
+        { name: "Python & Data Science", icon: <GradientIcon icon={Database} preset="sunset-orange" size={16} />, level: "Expert" },
+        { name: "FastAPI & React", icon: <GradientIcon icon={Terminal} preset="spotify-green" size={16} />, level: "Advanced" },
+        { name: "SQL & ETL Pipelines", icon: <GradientIcon icon={Database} preset="luxury-gold" size={16} />, level: "Expert" },
+        { name: "C++ & Algorithms", icon: <GradientIcon icon={Code2} preset="cyber-cyan" size={16} />, level: "Intermediate" },
+    ]
+
+    const traits = [
+        { name: "Trust (Cautious)", desc: "Calculated evaluation of situations", icon: <GradientIcon icon={Shield} preset="luxury-gold" size={16} /> },
+        { name: "Risk (Consistent)", desc: "Stable execution in high-stakes", icon: <GradientIcon icon={Zap} preset="sunset-orange" size={16} /> },
+        { name: "Attention (High)", desc: "Deep focus & distraction resistance", icon: <GradientIcon icon={Target} preset="cyber-cyan" size={16} /> },
+        { name: "Learning (Agile)", desc: "Rapid info absorption & retention", icon: <GradientIcon icon={BookOpen} preset="neon-purple" size={16} /> },
     ]
 
     return (
@@ -38,7 +46,7 @@ const About = () => {
                     {/* Experience */}
                     <div>
                         <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
-                            <Briefcase className="text-spotify-green" /> Experience
+                            <GradientIcon icon={Briefcase} preset="spotify-green" /> Experience
                         </h3>
                         <div className="relative border-l-2 border-spotify-light ml-3 pl-8 pb-2">
                             <motion.div
@@ -115,7 +123,7 @@ const About = () => {
                     <div className="space-y-12">
                         <div>
                             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
-                                <GraduationCap className="text-spotify-green" /> Education
+                                <GradientIcon icon={GraduationCap} preset="spotify-green" /> Education
                             </h3>
                             <div className="bg-spotify-dark p-6 rounded-xl border border-white/5 space-y-4">
                                 <div>
@@ -138,7 +146,7 @@ const About = () => {
 
                         <div>
                             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
-                                <Terminal className="text-spotify-green" /> Technical Arsenal
+                                <GradientIcon icon={Terminal} preset="spotify-green" /> Technical Arsenal
                             </h3>
                             <div className="grid grid-cols-2 gap-3">
                                 {skills.map((skill, index) => (
@@ -156,7 +164,7 @@ const About = () => {
                 <div className="grid md:grid-cols-2 gap-12">
                     <div>
                         <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
-                            <Briefcase className="text-spotify-green" /> Leadership
+                            <GradientIcon icon={Briefcase} preset="luxury-gold" /> Leadership
                         </h3>
                         <div className="space-y-6">
                             <div className="bg-spotify-dark p-6 rounded-xl border border-white/5 hover:border-spotify-green/50 transition-colors">
@@ -178,15 +186,23 @@ const About = () => {
 
                     <div>
                         <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
-                            <GraduationCap className="text-spotify-green" /> Certifications
+                            <GradientIcon icon={Brain} preset="neon-purple" /> Cognitive Profile
                         </h3>
-                        {/* <div className="bg-spotify-dark p-6 rounded-xl border border-white/5 hover:border-spotify-green/50 transition-colors mb-6">
-                            <h4 className="text-lg font-bold text-white">JPMorgan Chase</h4>
-                            <h5 className="text-spotify-green">Forage Virtual Internship</h5>
-                            <p className="text-spotify-grey text-sm mt-2">
-                                Gained practical experience in software engineering tasks and financial technology.
-                            </p>
-                        </div> */}
+                        <div className="grid grid-cols-1 gap-4">
+                            {traits.map((trait, index) => (
+                                <div key={index} className="bg-spotify-dark p-4 rounded-xl border border-white/5 hover:border-spotify-green/50 transition-colors flex items-start gap-4">
+                                    <div className="mt-1 text-spotify-green p-2 bg-white/5 rounded-lg">
+                                        {trait.icon}
+                                    </div>
+                                    <div>
+                                        <h4 className="text-lg font-bold text-white">{trait.name}</h4>
+                                        <p className="text-spotify-grey text-sm leading-relaxed">
+                                            {trait.desc}
+                                        </p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
 

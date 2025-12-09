@@ -27,5 +27,14 @@ export const projects: Project[] = [
         github: "https://github.com/omichauhan-lgtm/credit-risk-saas",
         demo: "#"
     },
+    {
+        id: 3,
+        title: "Gridiron Tactics Engine",
+        description: "C++ Console Strategy Game. features a complex gameplay loop connecting a 'Film Room' analysis simulator with a persistent inventory economy. Demonstrates advanced OOP and System Architecture.",
+        tech: ["C++17", "STL", "Object-Oriented Design", "Memory Management"],
+        image: "/omi-portfolio/assets/gridiron_tactics.png",
+        github: "https://github.com/omichauhan-lgtm/gridiron-tactics",
+        demo: "#"
+    },
 
 ]
