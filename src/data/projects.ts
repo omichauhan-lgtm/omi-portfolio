@@ -10,6 +10,24 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: 5,
+        title: "AI Multi-Strategy Fund Architect",
+        description: "Autonomous Hedge-Fund-as-a-Service infrastructure. AI Agents generate strategies, optimize portfolios using Risk Parity, and execute regime-aware rebalancing. Non-custodial.",
+        tech: ["Python", "Next.js 14", "LangGraph", "FastAPI", "TailwindCSS"],
+        image: "/omi-portfolio/assets/hedge_fund_thumb.png",
+        github: "https://github.com/omichauhan-lgtm/ai-hedge-fund-architect",
+        demo: "#"
+    },
+    {
+        id: 4,
+        title: "E-Commerce Sales Analytics Engine",
+        description: "Robust EDA pipeline processing 5,000+ records. Automated data cleaning and publication-ready Seaborn visualization generation for revenue trend analysis.",
+        tech: ["Python", "Pandas", "Seaborn", "Matplotlib", "Data Cleaning"],
+        image: "/omi-portfolio/assets/ecommerce_analytics_thumbnail.png",
+        github: "https://github.com/omichauhan-lgtm/python-eda-starter",
+        demo: "#"
+    },
+    {
         id: 1,
         title: "AutoSight SaaS",
         description: "AI-Powered Automotive Market Analysis Platform. Multi-tenant SaaS for demand forecasting and customer segmentation.",

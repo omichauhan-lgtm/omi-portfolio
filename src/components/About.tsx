@@ -36,13 +36,19 @@ const About = () => {
                 </h2>
 
                 {/* Bio */}
-                <div className="bg-spotify-dark rounded-xl p-8 mb-12 border border-white/5">
-                    <p className="text-spotify-grey text-lg leading-relaxed mb-6">
-                        I am a passionate <span className="text-white font-medium">Python Developer</span> and <span className="text-white font-medium">Data Analyst</span> focused on building intelligent software solutions. With a strong foundation in <span className="text-white font-medium">Full Stack Development</span> and <span className="text-white font-medium">Generative AI</span>, I bridge the gap between complex data and actionable business insights.
-                    </p>
-                    <p className="text-spotify-grey text-lg leading-relaxed">
-                        My goal is to build scalable SaaS platforms that solve real-world problems. From predicting credit risk using ML to visualizing automotive market trends, I love turning raw data into products.
-                    </p>
+                <p className="text-spotify-grey text-lg leading-relaxed mb-6">
+                    I build data systems that solve expensive problems. At the intersection of <span className="text-white font-medium">Data Science</span> and <span className="text-white font-medium">Software Engineering</span>, I don’t just analyze data—I engineer the pipelines, models, and architectures that make data usable.
+                </p>
+                <p className="text-spotify-grey text-lg leading-relaxed mb-6">
+                    My background at <span className="text-spotify-green">NIT Warangal</span> is grounded in mathematical rigor, which I translate into high-performance code.
+                </p>
+                <div className="text-spotify-grey text-lg leading-relaxed">
+                    <p className="font-bold text-white mb-2">THE VALUE I DELIVER:</p>
+                    <ul className="space-y-2">
+                        <li>🚀 <span className="text-white font-medium">Predictive Intelligence:</span> Building FinTech models (Credit Risk) that reduce financial exposure.</li>
+                        <li>⚡ <span className="text-white font-medium">System Optimization:</span> Writing low-latency C++ logic for high-performance engines.</li>
+                        <li>📊 <span className="text-white font-medium">Decision Architecture:</span> Transforming raw, messy datasets into executive-level insights using Python & SQL.</li>
+                    </ul>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 mb-12">
@@ -207,8 +213,27 @@ const About = () => {
                             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
                                 <GradientIcon icon={GraduationCap} preset="spotify-green" /> Certifications
                             </h3>
-                            <div className="bg-spotify-dark p-6 rounded-xl border border-white/5 border-dashed flex flex-col items-center justify-center text-center">
-                                <p className="text-spotify-grey">Updated certifications coming soon.</p>
+                            <div className="space-y-4">
+                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
+                                    <div className="flex items-center gap-4">
+                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">🐼</div>
+                                        <div>
+                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Pandas</h4>
+                                            <p className="text-spotify-grey text-sm">Kaggle • Dec 2025</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
+                                    <div className="flex items-center gap-4">
+                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">🐍</div>
+                                        <div>
+                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Python</h4>
+                                            <p className="text-spotify-grey text-sm">Kaggle • Dec 2025</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

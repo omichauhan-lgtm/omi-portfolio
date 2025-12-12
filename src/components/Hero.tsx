@@ -38,7 +38,10 @@ const Hero = () => {
                     Omii Chauhan
                 </h1>
                 <p className="text-xl md:text-2xl text-spotify-grey font-light tracking-wide">
-                    Full Stack Developer <span className="text-spotify-green mx-2">•</span> SaaS Builder
+                    AI & Data Engineer <span className="text-spotify-green mx-2">|</span> Python, SQL, C++
+                </p>
+                <p className="text-lg md:text-xl text-spotify-grey/80 font-light tracking-wide mt-2">
+                    Building Scalable ML Systems & Financial Analytics
                 </p>
             </motion.div>
 
