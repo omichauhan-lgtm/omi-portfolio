@@ -7,6 +7,11 @@ interface ProjectCardProps {
     project: Project
 }
 
+/**
+ * ProjectCard Component
+ * Individual card for displaying project details (Image, Title, Description, Tech Stack).
+ * Features hover effects for the image and "Play" button.
+ */
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
         <motion.div

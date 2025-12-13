@@ -2,6 +2,12 @@ import { motion } from 'framer-motion'
 import ProjectCard from './ProjectCard'
 import { projects } from '../data/projects'
 
+/**
+ * Projects Component
+ * Displays a grid of project cards.
+ * Data is imported from the local `projects` data file.
+ * Uses Framer Motion for stagger animations on entry.
+ */
 const Projects = () => {
     return (
         <section id="projects" className="py-20">

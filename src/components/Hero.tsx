@@ -1,5 +1,10 @@
 import { motion } from 'framer-motion'
 
+/**
+ * Hero Component
+ * Displays the main introduction, animated logo, and professional headline.
+ * Includes a scroll indicator to guide users to the next section.
+ */
 const Hero = () => {
     return (
         <div className="h-[90vh] flex flex-col items-center justify-center relative">

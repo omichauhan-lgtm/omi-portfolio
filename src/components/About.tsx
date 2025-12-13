@@ -2,6 +2,11 @@ import { motion } from 'framer-motion'
 import { Calendar, MapPin, Briefcase, GraduationCap, Code2, Database, Brain, Terminal, Shield, Target, Zap, BookOpen, Cloud, Cpu, GitBranch, Server } from 'lucide-react'
 import GradientIcon from './ui/GradientIcon'
 
+/**
+ * About Component
+ * Showcases the user's bio, skills, experience, and certifications.
+ * Uses a grid layout to present information in structured blocks (Experience, Education, Leadership, Cognitive Profile).
+ */
 const About = () => {
     const skills = [
         { name: "Full Stack SaaS", icon: <GradientIcon icon={Code2} preset="cyber-cyan" size={16} />, level: "Expert" },
