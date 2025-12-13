@@ -19,6 +19,15 @@ export const projects: Project[] = [
         demo: "#"
     },
     {
+        id: 5,
+        title: "Quantitative Finance Tools",
+        description: "High-performance Python library for portfolio optimization (MVO) and rigorous risk metrics (VaR, CVaR). Designed for algorithmic trading workflows.",
+        tech: ["Python", "NumPy", "SciPy", "Financial Math"],
+        image: "/omi-portfolio/assets/ecommerce_analytics_thumbnail.png", // Reusing a data-centric thumb
+        github: "https://github.com/omichauhan-lgtm/quantitative-finance-tools",
+        demo: "#"
+    },
+    {
         id: 4,
         title: "E-Commerce Sales Analytics Engine",
         description: "Robust EDA pipeline processing 5,000+ records. Automated data cleaning and publication-ready Seaborn visualization generation for revenue trend analysis.",
