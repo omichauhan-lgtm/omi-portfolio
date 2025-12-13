@@ -15,7 +15,7 @@ export const projects: Project[] = [
         description: "Autonomous Hedge-Fund-as-a-Service infrastructure. AI Agents generate strategies, optimize portfolios using Risk Parity, and execute regime-aware rebalancing. Non-custodial.",
         tech: ["Python", "Next.js 14", "LangGraph", "FastAPI", "TailwindCSS"],
         image: "/omi-portfolio/assets/hedge_fund_thumb.png",
-        github: "https://github.com/omichauhan-lgtm/ai-hedge-fund-architect",
+        github: "https://github.com/omichauhan-lgtm/ai-hedge-fund-platform",
         demo: "#"
     },
     {
