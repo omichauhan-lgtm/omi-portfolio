@@ -23,7 +23,7 @@ export const projects: Project[] = [
         title: "Quantitative Finance Tools",
         description: "High-performance Python library for portfolio optimization (MVO) and rigorous risk metrics (VaR, CVaR). Designed for algorithmic trading workflows.",
         tech: ["Python", "NumPy", "SciPy", "Financial Math"],
-        image: "/omi-portfolio/assets/ecommerce_analytics_thumbnail.png", // Reusing a data-centric thumb
+        image: "/omi-portfolio/assets/quantitative_finance_thumbnail.png",
         github: "https://github.com/omichauhan-lgtm/quantitative-finance-tools",
         demo: "#"
     },
