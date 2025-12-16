@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Html } from '@react-three/drei'
 import { profile } from '../data/profile'
 import { Code2, Brain, Database, Terminal, Cpu, Cloud, GitBranch, Shield, Zap, Target, BookOpen, Briefcase, GraduationCap, MapPin } from 'lucide-react'

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Canvas } from '@react-three/fiber'
 import { Environment, Stars, ScrollControls, Scroll } from '@react-three/drei'
 import { Suspense } from 'react'

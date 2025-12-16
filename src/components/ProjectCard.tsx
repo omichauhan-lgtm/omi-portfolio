@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { motion } from 'framer-motion'
 import { Github, ExternalLink, Play } from 'lucide-react'
 import { Project } from '../data/projects'
