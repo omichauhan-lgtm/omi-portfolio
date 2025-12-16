@@ -56,16 +56,19 @@ export const Overlay = () => {
                         animate="visible"
                         exit="exit"
                         variants={overlayVariants}
-                        className="absolute inset-0 bg-black/80 backdrop-blur-md z-20 overflow-y-auto pointer-events-auto p-8 md:p-20 text-white"
+                        className="absolute inset-0 bg-black/90 backdrop-blur-md z-20 overflow-y-auto pointer-events-auto p-8 md:p-20 text-white font-rajdhani"
                     >
-                        <motion.div variants={contentVariants} className="max-w-3xl mx-auto space-y-16">
+                        <motion.div variants={contentVariants} className="max-w-4xl mx-auto space-y-16 relative">
+                            {/* Decorative Lines */}
+                            <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-neon-blue to-transparent opacity-50" />
+
                             <motion.section variants={contentVariants}>
-                                <h2 className="text-3xl font-bold mb-6 text-red-500">01 / ABOUT</h2>
+                                <h2 className="text-4xl font-black mb-8 text-neon-blue font-orbitron tracking-widest border-b border-neon-blue/30 pb-4 inline-block">01 // ABOUT</h2>
                                 <div className="flex flex-col md:flex-row gap-8 items-start">
                                     <img
                                         src="/omi-portfolio/profile.jpg"
                                         alt="Omii Chauhan"
-                                        className="w-32 h-32 rounded-full border-4 border-white/10 object-cover shadow-2xl"
+                                        className="w-40 h-40 rounded-full border-2 border-neon-blue shadow-[0_0_20px_rgba(0,243,255,0.3)] object-cover"
                                     />
                                     <div>
                                         <p className="text-xl leading-relaxed text-gray-300">{profile.bio.intro}</p>
@@ -90,7 +93,7 @@ export const Overlay = () => {
                             </section>
 
                             <section>
-                                <h2 className="text-3xl font-bold mb-8 text-red-500">03 / LEADERSHIP</h2>
+                                <h2 className="text-4xl font-black mb-8 text-neon-purple font-orbitron tracking-widest border-b border-neon-purple/30 pb-4 inline-block">03 // LEADERSHIP</h2>
                                 <div className="grid md:grid-cols-2 gap-8">
                                     {profile.leadership.map((role, i) => (
                                         <div key={i} className="bg-white/5 p-6 rounded-lg">
@@ -104,10 +107,10 @@ export const Overlay = () => {
                             </section>
 
                             <section>
-                                <h2 className="text-3xl font-bold mb-8 text-red-500">04 / PROJECTS</h2>
+                                <h2 className="text-4xl font-black mb-8 text-neon-blue font-orbitron tracking-widest border-b border-neon-blue/30 pb-4 inline-block">04 // PROJECTS</h2>
                                 <div className="space-y-6">
                                     {(profile as any).projects?.map((proj: any, i: number) => (
-                                        <div key={i} className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                                        <div key={i} className="bg-black/40 backdrop-blur-sm p-6 rounded-lg border-l-4 border-neon-blue hover:bg-white/5 transition-all group">
                                             <div className="flex justify-between items-start mb-2">
                                                 <h3 className="text-xl font-bold">{proj.title}</h3>
                                                 <span className="text-xs font-mono bg-red-500/20 text-red-300 px-2 py-1 rounded">{proj.stack}</span>
@@ -119,12 +122,12 @@ export const Overlay = () => {
                             </section>
 
                             <section>
-                                <h2 className="text-3xl font-bold mb-8 text-red-500">05 / SKILLS</h2>
+                                <h2 className="text-4xl font-black mb-8 text-neon-pink font-orbitron tracking-widest border-b border-neon-pink/30 pb-4 inline-block">05 // SKILLS</h2>
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                                     {(profile as any).skills?.map((skill: any, i: number) => {
                                         const Icon = iconMap[skill.icon] || Code2
                                         return (
-                                            <div key={i} className="bg-white/5 p-4 rounded-lg flex flex-col items-center gap-2 hover:bg-white/10 transition-colors border border-white/5">
+                                            <div key={i} className="bg-black/40 border border-white/10 p-4 rounded-lg flex flex-col items-center gap-2 hover:border-neon-pink hover:shadow-[0_0_15px_rgba(255,0,255,0.3)] transition-all group">
                                                 <GradientIcon icon={Icon} preset={skill.preset} size={32} />
                                                 <span className="font-bold text-sm text-center">{skill.name}</span>
                                                 <span className="text-xs text-white/50">{skill.level}</span>
@@ -135,7 +138,7 @@ export const Overlay = () => {
                             </section>
 
                             <section>
-                                <h2 className="text-3xl font-bold mb-8 text-red-500">06 / INTERESTS</h2>
+                                <h2 className="text-4xl font-black mb-8 text-neon-purple font-orbitron tracking-widest border-b border-neon-purple/30 pb-4 inline-block">06 // INTERESTS</h2>
                                 <div className="flex flex-wrap gap-3">
                                     {(profile as any).interests?.map((tag: string, i: number) => (
                                         <span key={i} className="px-4 py-2 bg-white/10 rounded-full text-sm font-medium border border-white/5 text-gray-300">

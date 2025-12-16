@@ -17,10 +17,17 @@ export default {
                 },
                 tesla: {
                     red: '#E82127'
+                },
+                neon: {
+                    blue: '#00f3ff',
+                    pink: '#ff00ff',
+                    purple: '#bd00ff'
                 }
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],
+                orbitron: ['Orbitron', 'sans-serif'],
+                rajdhani: ['Rajdhani', 'sans-serif']
             }
         },
     },
