@@ -9,9 +9,9 @@ import { Scene } from './components/Scene'
 function App() {
     return (
         <>
-            {/* 3D Background */}
-            <div className="fixed inset-0 z-0">
-                <Scene />
+            {/* 3D Background - Disabled for stability, replaced with gradient */}
+            <div className="fixed inset-0 z-0 bg-spotify-black bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-spotify-dark via-spotify-black to-spotify-black">
+                {/* <Scene /> */}
             </div>
 
             {/* 2D Overlay Content */}
