@@ -1,1 +1,2 @@
  img[alt='Hidden Leaf Headband'], img[alt='Chibi Hacker'], img[alt='Holographic HUD'], img[alt='Cyberpunk Anime Girl'], img[alt='Mecha Mascot'], img[src*='sticker'] { display: none !important; opacity: 0 !important; width: 0 !important; height: 0 !important; }
+} img[alt*='Headband'], img[alt*='Hacker'], img[alt*='HUD'], img[alt*='Anime'], img[alt*='Mascot'], img[alt*='Sticker'] { display: none !important; width: 0 !important; height: 0 !important; opacity: 0 !important; visibility: hidden !important; position: absolute !important; left: -9999px !important; }
