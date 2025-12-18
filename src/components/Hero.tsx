@@ -25,7 +25,7 @@ const Hero = () => {
                     {/* Glass Container */}
                     <div className="relative w-full h-full rounded-full border-2 border-white/20 bg-black/30 backdrop-blur-md overflow-hidden shadow-2xl">
                         <img
-                            src="/profile.jpg"
+                            src={`${import.meta.env.BASE_URL}profile.jpg`}
                             alt="Omi Chauhan"
                             className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700"
                         />
