@@ -93,6 +93,7 @@ export const profile = {
     certifications: [
         { name: "Software Engineering", issuer: "Electronic Arts", date: "2025", icon: "🎮" },
         { name: "Quantitative Research", issuer: "JPMorgan Chase", date: "2025", icon: "📈" },
+        { name: "SQL (Advanced)", issuer: "HackerRank", date: "Dec 2025", icon: "💎" },
         { name: "Advanced Python", issuer: "Kaggle", date: "Dec 2025", icon: "🐍" },
         { name: "Pandas", issuer: "Kaggle", date: "Dec 2025", icon: "🐼" }
     ],

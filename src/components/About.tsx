@@ -221,6 +221,16 @@ const About = () => {
                             <div className="space-y-4">
                                 <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
                                     <div className="flex items-center gap-4">
+                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">💎</div>
+                                        <div>
+                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">SQL (Advanced)</h4>
+                                            <p className="text-spotify-grey text-sm">HackerRank • Dec 2025</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
+                                    <div className="flex items-center gap-4">
                                         <div className="bg-white/10 p-2 rounded-lg text-2xl">🐼</div>
                                         <div>
                                             <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Pandas</h4>
