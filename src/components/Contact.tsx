@@ -19,7 +19,9 @@ const Contact = () => {
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                     <a
-                        href="mailto:omichauhan427@gmail.com"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=omichauhan427@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="relative z-50 cursor-pointer flex items-center gap-2 bg-spotify-green text-black font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform hover:shadow-[0_0_20px_rgba(29,185,84,0.6)]"
                     >
                         <GradientIcon icon={Mail} preset="luxury-gold" size={20} className="text-black" />
