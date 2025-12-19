@@ -5,7 +5,7 @@ const LoadingScreen = () => {
         <motion.div
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
             className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-spotify-black selection:bg-spotify-green selection:text-black"
         >
             <div className="relative overflow-hidden">
