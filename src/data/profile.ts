@@ -99,6 +99,7 @@ export const profile = {
     ],
     interests: ["Full Stack Development", "Generative AI", "Data Science", "SaaS Building", "Game Development", "Quality Engineering", "Automation"],
     projects: [
+        { title: "Analytics Engineering System", desc: "Production-grade SQL/dbt Pipeline with CI/CD.", stack: "Data Engineering" },
         { title: "AutoSight SaaS", desc: "AI-Powered Automotive Market Analysis. Built with FastAPI, React, PostgreSQL.", stack: "Full Stack" },
         { title: "Credit Risk Intelligence", desc: "Automated Credit Risk Assessment using ML to predict default risks.", stack: "Data Science" },
         { title: "Gridiron Tactics Engine", desc: "C++ Console Strategy Game with complex simulation loop.", stack: "Game Dev" }

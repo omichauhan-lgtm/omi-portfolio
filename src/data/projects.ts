@@ -10,6 +10,15 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: 6,
+        title: "End-to-End Analytics Engineering",
+        description: "Modern Data Stack implementation. Designed a scalable 3-layer architecture (Staging → Marts → Analytics) handling 1M+ records with automated SQL linting (CI/CD) and dbt-style modeling.",
+        tech: ["Advanced SQL", "dbt Modeling", "Python (Faker)", "Data Warehousing", "CI/CD"],
+        image: "/omi-portfolio/assets/analytics_architecture.png",
+        github: "https://github.com/omichauhan-lgtm/advanced-analytics-engineering",
+        demo: "#"
+    },
+    {
         id: 5,
         title: "AI Multi-Strategy Fund Architect",
         description: "Autonomous Hedge-Fund-as-a-Service infrastructure. AI Agents generate strategies, optimize portfolios using Risk Parity, and execute regime-aware rebalancing. Non-custodial.",
