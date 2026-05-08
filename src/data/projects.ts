@@ -10,6 +10,24 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: 8,
+        title: "OMI Gateway (Sovereign AI Infrastructure)",
+        description: "Defensible AI Execution Control Plane for Enterprise and Sovereign AI. Implemented active learning for automatic router optimization, continuous model benchmarking, and frugal orchestration for on-premise and edge compatibility.",
+        tech: ["Python", "FastAPI", "AI Routing", "Enterprise Infrastructure"],
+        image: "/omi-portfolio/assets/omi_gateway_thumbnail.png",
+        github: "https://github.com/omichauhan-lgtm/omi_gateway",
+        demo: "#"
+    },
+    {
+        id: 7,
+        title: "Aden Hive Framework (Open Source)",
+        description: "Core contributor to enterprise AI agent framework. Patched critical path traversal vulnerabilities in routing endpoints and hardened DNS verification pipelines with DNSSEC AD flag validation.",
+        tech: ["Python", "Backend Security", "aiohttp", "DNSSEC", "CI/CD"],
+        image: "/omi-portfolio/assets/aden_hive_thumbnail.png",
+        github: "https://github.com/adenhq/hive/pull/6645",
+        demo: "https://github.com/adenhq/hive/pull/7139"
+    },
+    {
         id: 6,
         title: "End-to-End Analytics Engineering",
         description: "Modern Data Stack implementation. Designed a scalable 3-layer architecture (Staging → Marts → Analytics) handling 1M+ records with automated SQL linting (CI/CD) and dbt-style modeling.",

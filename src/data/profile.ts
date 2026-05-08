@@ -36,6 +36,17 @@ export const profile = {
     ],
     experience: [
         {
+            role: "Open Source Contributor",
+            company: "AdenHQ",
+            period: "Feb 2026 – Present",
+            location: "Remote",
+            details: [
+                "Identified and resolved a critical path traversal vulnerability across 13 routing endpoints in the Hive AI agent framework.",
+                "Hardened DNS infrastructure by bypassing unreliable system resolvers to enforce DNSSEC validation and verify AD flags.",
+                "Navigated strict repository contribution guidelines and CI/CD pipelines to merge enterprise-grade security patches."
+            ]
+        },
+        {
             role: "Data Analyst Intern",
             company: "Rajputana Vehicles Pvt. Ltd.",
             period: "May 2025 – June 2025",
@@ -99,6 +110,8 @@ export const profile = {
     ],
     interests: ["Full Stack Development", "Generative AI", "Data Science", "SaaS Building", "Game Development", "Quality Engineering", "Automation"],
     projects: [
+        { title: "OMI Gateway", desc: "Sovereign Intelligence Orchestration and AI Execution Control Plane.", stack: "AI Infrastructure" },
+        { title: "Aden Hive Framework", desc: "Core open-source contributor fixing security and DNS vulnerabilities in an enterprise AI agent framework.", stack: "Backend Security" },
         { title: "Analytics Engineering System", desc: "Production-grade SQL/dbt Pipeline with CI/CD.", stack: "Data Engineering" },
         { title: "AutoSight SaaS", desc: "AI-Powered Automotive Market Analysis. Built with FastAPI, React, PostgreSQL.", stack: "Full Stack" },
         { title: "Credit Risk Intelligence", desc: "Automated Credit Risk Assessment using ML to predict default risks.", stack: "Data Science" },
