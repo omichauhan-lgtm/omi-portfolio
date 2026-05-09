@@ -10,28 +10,10 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        id: 8,
-        title: "OMI Gateway (Sovereign AI Infrastructure)",
-        description: "Defensible AI Execution Control Plane for Enterprise and Sovereign AI. Implemented active learning for automatic router optimization, continuous model benchmarking, and frugal orchestration for on-premise and edge compatibility.",
-        tech: ["Python", "FastAPI", "AI Routing", "Enterprise Infrastructure"],
-        image: "/omi-portfolio/assets/omi_gateway_thumbnail.png",
-        github: "https://github.com/omichauhan-lgtm/omi_gateway",
-        demo: "#"
-    },
-    {
-        id: 7,
-        title: "Aden Hive Framework (Open Source)",
-        description: "Core contributor to enterprise AI agent framework. Patched critical path traversal vulnerabilities in routing endpoints and hardened DNS verification pipelines with DNSSEC AD flag validation.",
-        tech: ["Python", "Backend Security", "aiohttp", "DNSSEC", "CI/CD"],
-        image: "/omi-portfolio/assets/aden_hive_thumbnail.png",
-        github: "https://github.com/adenhq/hive/pull/6645",
-        demo: "https://github.com/adenhq/hive/pull/7139"
-    },
-    {
         id: 6,
         title: "End-to-End Analytics Engineering",
-        description: "Modern Data Stack implementation. Designed a scalable 3-layer architecture (Staging → Marts → Analytics) handling 1M+ records with automated SQL linting (CI/CD) and dbt-style modeling.",
-        tech: ["Advanced SQL", "dbt Modeling", "Python (Faker)", "Data Warehousing", "CI/CD"],
+        description: "Modern Data Stack implementation. Processed and transformed 1M+ synthetic sales records using dbt models and Snowflake warehouse pipelines, enforcing strict schema validation via CI/CD.",
+        tech: ["Advanced SQL", "dbt Modeling", "Snowflake", "Data Warehousing", "CI/CD"],
         image: "/omi-portfolio/assets/analytics_architecture.png",
         github: "https://github.com/omichauhan-lgtm/advanced-analytics-engineering",
         demo: "#"
@@ -39,14 +21,14 @@ export const projects: Project[] = [
     {
         id: 5,
         title: "AI Multi-Strategy Fund Architect",
-        description: "Autonomous Hedge-Fund-as-a-Service infrastructure. AI Agents generate strategies, optimize portfolios using Risk Parity, and execute regime-aware rebalancing. Non-custodial.",
-        tech: ["Python", "Next.js 14", "LangGraph", "FastAPI", "TailwindCSS"],
+        description: "Autonomous Hedge-Fund-as-a-Service infrastructure. Built a multi-agent orchestration workflow using LangGraph and Redis queues, where independent agents generate allocation signals asynchronously.",
+        tech: ["Python", "Next.js 14", "LangGraph", "FastAPI", "Redis"],
         image: "/omi-portfolio/assets/hedge_fund_thumb.png",
         github: "https://github.com/omichauhan-lgtm/ai-hedge-fund-platform",
         demo: "#"
     },
     {
-        id: 5,
+        id: 7,
         title: "Quantitative Finance Tools",
         description: "High-performance Python library for portfolio optimization (MVO) and rigorous risk metrics (VaR, CVaR). Designed for algorithmic trading workflows.",
         tech: ["Python", "NumPy", "SciPy", "Financial Math"],
@@ -75,11 +57,11 @@ export const projects: Project[] = [
     {
         id: 2,
         title: "Credit Risk Intelligence",
-        description: "Automated Credit Risk Assessment SaaS. Uses machine learning to predict borrower default risks.",
-        tech: ["Python", "Streamlit", "Scikit-learn", "Pandas"],
+        description: "Engineered a containerized batch processing engine (Docker) capable of scoring 10,000+ loan applications asynchronously via FastAPI workers, computing EAD and LGD metrics.",
+        tech: ["Python", "Streamlit", "Scikit-learn", "Docker", "FastAPI"],
         image: "/omi-portfolio/assets/credit_risk_dashboard_ui.png",
         github: "https://github.com/omichauhan-lgtm/credit-risk-saas",
-        demo: "#"
+        demo: "https://credit-risk-saas.streamlit.app"
     },
     {
         id: 3,
@@ -89,6 +71,5 @@ export const projects: Project[] = [
         image: "/omi-portfolio/assets/gridiron_tactics.png",
         github: "https://github.com/omichauhan-lgtm/gridiron-tactics",
         demo: "#"
-    },
-
+    }
 ]

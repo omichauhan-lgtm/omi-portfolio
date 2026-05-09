@@ -1,6 +1,5 @@
 // Imports removed as icons are referenced by string name
 
-
 export const profile = {
     contact: {
         email: "omichauhan427@gmail.com",
@@ -11,7 +10,7 @@ export const profile = {
         location: "Warangal, India"
     },
     bio: {
-        intro: "I am Omii, a Full Stack Engineer and Data Scientist passionate about building robust SaaS platforms and AI-driven solutions. I specialize in bridging the gap between \"concept\" and \"delivery\" through clean architecture and modern tech stacks.",
+        intro: "I am Omii, a systems-oriented Backend & Data Engineer. I specialize in building robust data infrastructure, scalable ETL pipelines, and high-performance ML orchestration architectures.",
         education: "B.Tech in Metallurgy and Material Sciences at NIT Warangal (2023–2027)."
     },
     education: [
@@ -25,37 +24,25 @@ export const profile = {
             institution: "Telangana State Board of Intermediate Education",
             degree: "Class XII (Higher Secondary)",
             year: "2022",
-            details: "Completed"
+            details: "Completed - 96%"
         },
         {
             institution: "Central Board of Secondary Education",
             degree: "Class X (Secondary School)",
             year: "2020",
-            details: "Completed"
+            details: "Completed - 93%"
         }
     ],
     experience: [
-        {
-            role: "Open Source Contributor",
-            company: "AdenHQ",
-            period: "Feb 2026 – Present",
-            location: "Remote",
-            details: [
-                "Identified and resolved a critical path traversal vulnerability across 13 routing endpoints in the Hive AI agent framework.",
-                "Hardened DNS infrastructure by bypassing unreliable system resolvers to enforce DNSSEC validation and verify AD flags.",
-                "Navigated strict repository contribution guidelines and CI/CD pipelines to merge enterprise-grade security patches."
-            ]
-        },
         {
             role: "Data Analyst Intern",
             company: "Rajputana Vehicles Pvt. Ltd.",
             period: "May 2025 – June 2025",
             location: "Madhya Pradesh, India",
             details: [
-                "Developed Python automation scripts to streamline data processing strategies.",
-                "Performed quality validation on large datasets to ensure accuracy.",
-                "Designed KPI dashboards (Power BI) for performance metrics.",
-                "Implemented K-Means Clustering for customer segmentation."
+                "Developed an automated ETL data pipeline using Python (Pandas) to process raw business data, eliminating 10+ hours/week of manual reporting.",
+                "Implemented a K-Means clustering pipeline on 50k+ transaction records, improving campaign targeting precision by 15% compared to rule-based segmentation.",
+                "Designed KPI dashboards using Power BI and Excel to visualize sales trends and inventory turnover for senior management."
             ]
         }
     ],
@@ -69,8 +56,8 @@ export const profile = {
             desc: "Analyzed loan books using quantitative methods. Implemented dynamic programming for default prediction."
         },
         {
-            title: "Hackathons",
-            desc: "Active participant focusing on efficient, bug-free code and TDD practices."
+            title: "HackerRank SQL (Advanced)",
+            desc: "Certified - Top percentile in complex query optimization."
         }
     ],
     leadership: [
@@ -86,12 +73,12 @@ export const profile = {
         }
     ],
     skills: [
-        { name: "Full Stack SaaS", level: "Expert", icon: "Code2", preset: "cyber-cyan" },
-        { name: "Generative AI (LLMs)", level: "Advanced", icon: "Brain", preset: "neon-purple" },
-        { name: "Python & Data Science", level: "Expert", icon: "Database", preset: "sunset-orange" },
-        { name: "FastAPI & React", level: "Advanced", icon: "Terminal", preset: "spotify-green" },
-        { name: "Game Dev (C++)", level: "Intermediate", icon: "Cpu", preset: "luxury-gold" },
-        { name: "CI/CD & Docker", level: "Advanced", icon: "Cloud", preset: "neon-purple" },
+        { name: "Data & ML Pipelines", level: "Expert", icon: "Database", preset: "cyber-cyan" },
+        { name: "Backend Infrastructure", level: "Advanced", icon: "Terminal", preset: "neon-purple" },
+        { name: "Cloud & Docker", level: "Advanced", icon: "Cloud", preset: "sunset-orange" },
+        { name: "FastAPI & Async", level: "Advanced", icon: "Zap", preset: "spotify-green" },
+        { name: "C++ & Systems", level: "Intermediate", icon: "Cpu", preset: "luxury-gold" },
+        { name: "Snowflake & dbt", level: "Advanced", icon: "Database", preset: "neon-purple" },
         { name: "TDD & QA", level: "Advanced", icon: "Shield", preset: "luxury-gold" },
         { name: "Git & DevOps", level: "Advanced", icon: "GitBranch", preset: "sunset-orange" }
     ],
@@ -108,13 +95,13 @@ export const profile = {
         { name: "Advanced Python", issuer: "Kaggle", date: "Dec 2025", icon: "🐍" },
         { name: "Pandas", issuer: "Kaggle", date: "Dec 2025", icon: "🐼" }
     ],
-    interests: ["Full Stack Development", "Generative AI", "Data Science", "SaaS Building", "Game Development", "Quality Engineering", "Automation"],
+    interests: ["Data Infrastructure", "Backend Architecture", "ML Engineering", "Systems Design", "Financial Tech", "Algorithmic Trading"],
     projects: [
-        { title: "OMI Gateway", desc: "Sovereign Intelligence Orchestration and AI Execution Control Plane.", stack: "AI Infrastructure" },
-        { title: "Aden Hive Framework", desc: "Core open-source contributor fixing security and DNS vulnerabilities in an enterprise AI agent framework.", stack: "Backend Security" },
-        { title: "Analytics Engineering System", desc: "Production-grade SQL/dbt Pipeline with CI/CD.", stack: "Data Engineering" },
-        { title: "AutoSight SaaS", desc: "AI-Powered Automotive Market Analysis. Built with FastAPI, React, PostgreSQL.", stack: "Full Stack" },
-        { title: "Credit Risk Intelligence", desc: "Automated Credit Risk Assessment using ML to predict default risks.", stack: "Data Science" },
-        { title: "Gridiron Tactics Engine", desc: "C++ Console Strategy Game with complex simulation loop.", stack: "Game Dev" }
+        { title: "Analytics Engineering System", desc: "Production-grade SQL/dbt Pipeline with CI/CD and Snowflake.", stack: "Data Engineering" },
+        { title: "AI Hedge Fund Platform", desc: "Multi-agent LangGraph orchestration with Redis queues.", stack: "Backend Architecture" },
+        { title: "Credit Risk Intelligence", desc: "Batch processing ML engine using Docker and FastAPI workers.", stack: "ML Infrastructure" },
+        { title: "AutoSight SaaS", desc: "Automotive Market Analysis SaaS built with FastAPI and React.", stack: "Full Stack" },
+        { title: "Quantitative Finance Tools", desc: "Python library for VaR and portfolio optimization.", stack: "Financial Tech" },
+        { title: "Gridiron Tactics Engine", desc: "C++ Console Strategy Game with complex simulation loop.", stack: "Systems" }
     ]
 }
