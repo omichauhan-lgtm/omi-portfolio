@@ -9,15 +9,13 @@ import GradientIcon from './ui/GradientIcon'
  */
 const About = () => {
     const skills = [
-        { name: "Full Stack SaaS", icon: <GradientIcon icon={Code2} preset="cyber-cyan" size={16} />, level: "Expert" },
-        { name: "Generative AI (LLMs)", icon: <GradientIcon icon={Brain} preset="neon-purple" size={16} />, level: "Advanced" },
-        { name: "Python & Data Science", icon: <GradientIcon icon={Database} preset="sunset-orange" size={16} />, level: "Expert" },
-        { name: "FastAPI & React", icon: <GradientIcon icon={Terminal} preset="spotify-green" size={16} />, level: "Advanced" },
-        { name: "SQL & ETL Pipelines", icon: <GradientIcon icon={Database} preset="luxury-gold" size={16} />, level: "Expert" },
-        { name: "C++ & Algorithms", icon: <GradientIcon icon={Code2} preset="cyber-cyan" size={16} />, level: "Intermediate" },
-        { name: "Machine Learning", icon: <GradientIcon icon={Cpu} preset="neon-purple" size={16} />, level: "Advanced" },
-        { name: "Docker & Cloud", icon: <GradientIcon icon={Cloud} preset="luxury-gold" size={16} />, level: "Intermediate" },
-        { name: "System Design", icon: <GradientIcon icon={Server} preset="spotify-green" size={16} />, level: "Intermediate" },
+        { name: "Data & ML Pipelines", icon: <GradientIcon icon={Database} preset="cyber-cyan" size={16} />, level: "Expert" },
+        { name: "Backend Infrastructure", icon: <GradientIcon icon={Terminal} preset="neon-purple" size={16} />, level: "Advanced" },
+        { name: "Cloud & Docker", icon: <GradientIcon icon={Cloud} preset="sunset-orange" size={16} />, level: "Advanced" },
+        { name: "FastAPI & Async", icon: <GradientIcon icon={Zap} preset="spotify-green" size={16} />, level: "Advanced" },
+        { name: "C++ & Systems", icon: <GradientIcon icon={Cpu} preset="luxury-gold" size={16} />, level: "Intermediate" },
+        { name: "Snowflake & dbt", icon: <GradientIcon icon={Database} preset="neon-purple" size={16} />, level: "Advanced" },
+        { name: "TDD & QA", icon: <GradientIcon icon={Shield} preset="luxury-gold" size={16} />, level: "Advanced" },
         { name: "Git & DevOps", icon: <GradientIcon icon={GitBranch} preset="sunset-orange" size={16} />, level: "Advanced" },
     ]
 
@@ -42,19 +40,11 @@ const About = () => {
 
                 {/* Bio */}
                 <p className="text-spotify-grey text-lg leading-relaxed mb-6">
-                    I build data systems that solve expensive problems. At the intersection of <span className="text-white font-medium">Data Science</span> and <span className="text-white font-medium">Software Engineering</span>, I don’t just analyze data—I engineer the pipelines, models, and architectures that make data usable.
+                    I am a systems-oriented <span className="text-white font-medium">Backend & Data Engineer</span>. I specialize in building robust data infrastructure, scalable ETL pipelines, and high-performance ML orchestration architectures.
                 </p>
                 <p className="text-spotify-grey text-lg leading-relaxed mb-6">
-                    My background at <span className="text-spotify-green">NIT Warangal</span> is grounded in mathematical rigor, which I translate into high-performance code.
+                    My background at <span className="text-spotify-green">NIT Warangal</span> is grounded in mathematical rigor, which I translate into production-grade systems capable of processing significant data volume asynchronously.
                 </p>
-                <div className="text-spotify-grey text-lg leading-relaxed">
-                    <p className="font-bold text-white mb-2">THE VALUE I DELIVER:</p>
-                    <ul className="space-y-2">
-                        <li>🚀 <span className="text-white font-medium">Predictive Intelligence:</span> Building FinTech models (Credit Risk) that reduce financial exposure.</li>
-                        <li>⚡ <span className="text-white font-medium">System Optimization:</span> Writing low-latency C++ logic for high-performance engines.</li>
-                        <li>📊 <span className="text-white font-medium">Decision Architecture:</span> Transforming raw, messy datasets into executive-level insights using Python & SQL.</li>
-                    </ul>
-                </div>
 
                 <div className="grid md:grid-cols-2 gap-12 mb-12">
 
@@ -81,54 +71,9 @@ const About = () => {
                                 </div>
 
                                 <ul className="list-disc list-inside text-spotify-grey space-y-2 text-sm">
-                                    <li>Developed <strong>Python automation scripts</strong> to streamline data processing, significantly reducing manual analysis time.</li>
-                                    <li>Performed <strong>quality validation</strong> on large datasets to ensure accuracy for strategic decision-making.</li>
-                                    <li>Designed <strong>KPI dashboards</strong> (Power BI) to monitor performance metrics and automated monthly reporting.</li>
-                                    <li>Implemented <strong>K-Means Clustering</strong> to segment customers, enhancing targeted marketing efficiency.</li>
-                                </ul>
-                            </motion.div>
-
-                            <motion.div
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                className="relative mb-12"
-                            >
-                                <div className="absolute -left-[41px] top-0 w-5 h-5 bg-spotify-green rounded-full border-4 border-spotify-black" />
-
-                                <h4 className="text-xl font-bold text-white">Software Engineer Virtual Experience</h4>
-                                <h5 className="text-lg text-spotify-green mb-2">Electronic Arts</h5>
-
-                                <div className="flex flex-col gap-1 text-sm text-spotify-grey mb-4">
-                                    <span className="flex items-center gap-2"><Calendar size={14} /> December 2025</span>
-                                    <span className="flex items-center gap-2"><MapPin size={14} /> Forage (Virtual)</span>
-                                </div>
-
-                                <ul className="list-disc list-inside text-spotify-grey space-y-2 text-sm">
-                                    <li>Optimized <strong>C++ codebase</strong> by identifying and patching defects, enhancing overall game stability and code quality.</li>
-                                    <li>Proposed a new feature for the <strong>EA Sports College Football</strong> with a comprehensive design document.</li>
-                                </ul>
-                            </motion.div>
-
-                            <motion.div
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                className="relative"
-                            >
-                                <div className="absolute -left-[41px] top-0 w-5 h-5 bg-spotify-green rounded-full border-4 border-spotify-black" />
-
-                                <h4 className="text-xl font-bold text-white">Quantitative Research Virtual Experience</h4>
-                                <h5 className="text-lg text-spotify-green mb-2">JPMorgan Chase & Co.</h5>
-
-                                <div className="flex flex-col gap-1 text-sm text-spotify-grey mb-4">
-                                    <span className="flex items-center gap-2"><Calendar size={14} /> November 2025</span>
-                                    <span className="flex items-center gap-2"><MapPin size={14} /> Forage (Virtual)</span>
-                                </div>
-
-                                <ul className="list-disc list-inside text-spotify-grey space-y-2 text-sm">
-                                    <li>Analyzed a loan book using <strong>quantitative methods</strong> and verified data accuracy.</li>
-                                    <li>Implemented <strong>dynamic programming</strong> solutions to predict default probabilities effectively.</li>
+                                    <li>Developed an automated <strong>ETL data pipeline</strong> using Python (Pandas) to process raw business data, eliminating 10+ hours/week of manual reporting.</li>
+                                    <li>Implemented a <strong>K-Means clustering</strong> pipeline on 50k+ transaction records, improving campaign targeting precision by 15% compared to rule-based segmentation.</li>
+                                    <li>Designed <strong>KPI dashboards</strong> using Power BI and Excel to visualize sales trends and inventory turnover for senior management.</li>
                                 </ul>
                             </motion.div>
                         </div>
@@ -213,12 +158,32 @@ const About = () => {
                             ))}
                         </div>
 
-                        {/* Certifications (Placeholder) */}
+                        {/* Certifications */}
                         <div className="mt-12">
                             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2 text-white">
                                 <GradientIcon icon={GraduationCap} preset="spotify-green" /> Certifications
                             </h3>
                             <div className="space-y-4">
+                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
+                                    <div className="flex items-center gap-4">
+                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">🎮</div>
+                                        <div>
+                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Software Engineering</h4>
+                                            <p className="text-spotify-grey text-sm">Electronic Arts • 2025</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
+                                    <div className="flex items-center gap-4">
+                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">📈</div>
+                                        <div>
+                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Quantitative Research</h4>
+                                            <p className="text-spotify-grey text-sm">JPMorgan Chase • 2025</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
                                     <div className="flex items-center gap-4">
                                         <div className="bg-white/10 p-2 rounded-lg text-2xl">💎</div>
@@ -228,27 +193,6 @@ const About = () => {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
-                                    <div className="flex items-center gap-4">
-                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">🐼</div>
-                                        <div>
-                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Pandas</h4>
-                                            <p className="text-spotify-grey text-sm">Kaggle • Dec 2025</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="bg-spotify-dark p-4 rounded-xl border border-white/5 flex items-center justify-between hover:bg-white/5 transition-colors group">
-                                    <div className="flex items-center gap-4">
-                                        <div className="bg-white/10 p-2 rounded-lg text-2xl">🐍</div>
-                                        <div>
-                                            <h4 className="text-white font-bold group-hover:text-spotify-green transition-colors">Python</h4>
-                                            <p className="text-spotify-grey text-sm">Kaggle • Dec 2025</p>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
