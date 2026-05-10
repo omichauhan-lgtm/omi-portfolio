@@ -35,6 +35,16 @@ export const profile = {
     ],
     experience: [
         {
+            role: "Open Source Contributor",
+            company: "ADEN HQ (hive)",
+            period: "2026",
+            location: "Remote",
+            details: [
+                "Fixed a critical path traversal vulnerability (PR #6645) by refactoring path resolution logic and strengthening symlink validation.",
+                "Resolved a DNSSEC validation issue (Issue #5112) by implementing resolver-aware validation and removing hardcoded nameservers."
+            ]
+        },
+        {
             role: "Data Analyst Intern",
             company: "Rajputana Vehicles Pvt. Ltd.",
             period: "May 2025 – June 2025",
