@@ -5,18 +5,18 @@ export const profile = {
         email: "omichauhan427@gmail.com",
         studentEmail: "oc23mmb0a31@student.nitw.ac.in",
         phone: "+91-9770845401",
-        linkedin: "https://www.linkedin.com/in/omichauhan/",
+        linkedin: "https://www.linkedin.com/in/omii-chauhan/",
         github: "https://github.com/omichauhan-lgtm",
         location: "Warangal, India"
     },
     bio: {
         intro: "I am Omii, a systems-oriented Backend & Data Engineer. I specialize in building robust data infrastructure, scalable ETL pipelines, and high-performance ML orchestration architectures.",
-        education: "B.Tech in Metallurgy and Material Sciences at NIT Warangal (2023–2027)."
+        education: "B.Tech in Metallurgy and Materials Science at NIT Warangal (2023–2027)."
     },
     education: [
         {
             institution: "National Institute of Technology, Warangal",
-            degree: "B.Tech in Metallurgy and Material Sciences",
+            degree: "B.Tech in Metallurgy and Materials Science",
             year: "2023 – 2027",
             details: "Roll No.: 23MMB0A31"
         },
@@ -36,23 +36,36 @@ export const profile = {
     experience: [
         {
             role: "Open Source Contributor",
-            company: "ADEN HQ (hive)",
-            period: "2026",
+            company: "LangGraph (langchain-ai)",
+            period: "Jul 2026 -- Present",
             location: "Remote",
             details: [
-                "Fixed a critical path traversal vulnerability (PR #6645) by refactoring path resolution logic and strengthening symlink validation.",
-                "Resolved a DNSSEC validation issue (Issue #5112) by implementing resolver-aware validation and removing hardcoded nameservers."
+                "Concurrency Architecture: Patched a critical bug in ToolNode.ainvoke() where executions would freeze indefinitely due to silently swallowed SSE read timeouts (PR #8357).",
+                "Timeout Control Plane: Introduced the `timeout` parameter to ToolNode async flow using asyncio.wait_for, enabling granular timeouts for network-bound and MCP tool executions.",
+                "Resilience Framework: Handled TimeoutErrors gracefully, converting network timeouts into standardized error ToolMessage objects or propagating them depending on user configuration."
+            ]
+        },
+        {
+            role: "Core Framework Contributor",
+            company: "ADEN (Y Combinator)",
+            period: "Feb 2026 -- Present",
+            location: "Remote",
+            details: [
+                "Concurrency & Resilience: Engineered a per-key asynchronous locking strategy to resolve a critical TOCTOU race condition, and refactored the file-spillover and session checkpointing pipelines to isolate corrupted states, preventing silent execution failures on resume.",
+                "Performance Engineering: Refactored legacy synchronous tool integrations (Exa, Apollo) to native asynchronous execution using httpx.AsyncClient, eliminating event-loop starvation.",
+                "Advanced Swarm Consensus: Implemented the core engine for the Neutrosophic Scoring Module (RFC #7179), introducing multi-dimensional confidence logic for swarm decision-making.",
+                "Security & Protocol Hardening: Patched critical directory traversal vulnerabilities across 13 routing endpoints and engineered a custom DNSSEC validation pipeline bypassing system resolvers to enforce Authenticated Data (AD) verification."
             ]
         },
         {
             role: "Data Analyst Intern",
-            company: "Rajputana Vehicles Pvt. Ltd.",
-            period: "May 2025 – June 2025",
+            company: "Rajputana Vehicles Private Limited",
+            period: "May 2025 -- June 2025",
             location: "Madhya Pradesh, India",
             details: [
                 "Developed an automated ETL data pipeline using Python (Pandas) to process raw business data, eliminating 10+ hours/week of manual reporting.",
-                "Implemented a K-Means clustering pipeline on 50k+ transaction records, improving campaign targeting precision by 15% compared to rule-based segmentation.",
-                "Designed KPI dashboards using Power BI and Excel to visualize sales trends and inventory turnover for senior management."
+                "Architected customer segmentation models utilizing K-Means clustering on 50k+ transaction records, improving campaign targeting precision by 15%.",
+                "Designed interactive KPI dashboards in Power BI to track EV adoption rates and inventory turnover, enabling data-backed strategic decisions for senior management."
             ]
         }
     ],
@@ -107,6 +120,7 @@ export const profile = {
     ],
     interests: ["Data Infrastructure", "Backend Architecture", "ML Engineering", "Systems Design", "Financial Tech", "Algorithmic Trading"],
     projects: [
+        { title: "Visual Workflow Builder", desc: "Production-grade node-based pipeline editor with real-time DAG validation.", stack: "Full Stack" },
         { title: "Analytics Engineering System", desc: "Production-grade SQL/dbt Pipeline with CI/CD and Snowflake.", stack: "Data Engineering" },
         { title: "AI Hedge Fund Platform", desc: "Multi-agent LangGraph orchestration with Redis queues.", stack: "Backend Architecture" },
         { title: "Credit Risk Intelligence", desc: "Batch processing ML engine using Docker and FastAPI workers.", stack: "ML Infrastructure" },
