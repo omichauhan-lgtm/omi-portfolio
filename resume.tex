@@ -95,6 +95,7 @@ Software Engineer with experience in backend development, data engineering, and 
     \resumeItemListStart
       \item {Patched a critical event-loop freezing bug in \texttt{ToolNode.ainvoke()} caused by silent Server-Sent Events (SSE) read timeouts in Model Context Protocol (MCP) clients (PR \#8357).}
       \item {Engineered a configurable async timeout mechanism using \texttt{asyncio.wait\_for} to wrap tool executions, preventing indefinite hangs.}
+      \item {Resolved channel compilation behaviors to preserve Pydantic field defaults and default factories (e.g., \texttt{default\_factory=lambda: ...}) when using annotated reducer functions (Issue \#5225).}
       \item {Standardized exception handling to return structured error \texttt{ToolMessage} objects or cleanly propagate errors per configuration.}
     \resumeItemListEnd
 

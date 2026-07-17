@@ -38,7 +38,7 @@ const Contact = () => {
                             <GradientIcon icon={Github} preset="luxury-gold" size={24} />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/omichauhan/"
+                            href="https://www.linkedin.com/in/omii-chauhan/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="p-4 bg-white/10 rounded-full hover:bg-white/20 transition-colors text-white"

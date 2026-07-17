@@ -43,7 +43,7 @@ export const Overlay = () => {
                     <button onClick={() => setShowProfile(false)} className={`${!showProfile ? 'text-white' : 'hover:text-white'} transition-colors`}>WORK</button>
                     <button onClick={() => setShowProfile(true)} className={`${showProfile ? 'text-white' : 'hover:text-white'} transition-colors`}>PROFILE</button>
                     <a href="https://github.com/omichauhan-lgtm" target="_blank" className="hover:text-white transition-colors">GITHUB</a>
-                    <a href="https://www.linkedin.com/in/omichauhan/" target="_blank" className="hover:text-white transition-colors">LINKEDIN</a>
+                    <a href={profile.contact.linkedin} target="_blank" className="hover:text-white transition-colors">LINKEDIN</a>
                     <a href="mailto:omichauhan427@gmail.com" className="hover:text-white transition-colors" title="omichauhan427@gmail.com">CONTACT</a>
                 </nav>
             </header>

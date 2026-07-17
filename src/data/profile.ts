@@ -42,6 +42,7 @@ export const profile = {
             details: [
                 "Concurrency Architecture: Patched a critical bug in ToolNode.ainvoke() where executions would freeze indefinitely due to silently swallowed SSE read timeouts (PR #8357).",
                 "Timeout Control Plane: Introduced the `timeout` parameter to ToolNode async flow using asyncio.wait_for, enabling granular timeouts for network-bound and MCP tool executions.",
+                "State Reducer Defaults: Resolved channel compilation behavior to correctly preserve Pydantic field defaults and default factories (e.g. `default_factory=lambda: ...`) when using annotated reducer functions (Issue #5225).",
                 "Resilience Framework: Handled TimeoutErrors gracefully, converting network timeouts into standardized error ToolMessage objects or propagating them depending on user configuration."
             ]
         },

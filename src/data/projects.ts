@@ -10,6 +10,15 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: 8,
+        title: "Visual Workflow Builder",
+        description: "Production-grade node-based pipeline editor with real-time DAG validation using Kahn's Algorithm (Topological Sort). Features an extensible BaseNode abstraction, reducing boilerplate by 40%, and state synchronization using Zustand.",
+        tech: ["React Flow", "React", "Zustand", "FastAPI", "Python", "REST APIs"],
+        image: "/omi-portfolio/assets/workflow_builder_thumb.png",
+        github: "https://github.com/omichauhan-lgtm/vectorshift-assessment",
+        demo: "https://frontend-tau-gules-tjmhfwi1bj.vercel.app"
+    },
+    {
         id: 6,
         title: "End-to-End Analytics Engineering",
         description: "Modern Data Stack implementation. Processed and transformed 1M+ synthetic sales records using dbt models and Snowflake warehouse pipelines, enforcing strict schema validation via CI/CD.",
