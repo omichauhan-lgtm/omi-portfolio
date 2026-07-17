@@ -1,4 +1,4 @@
-import { Home, User, Code, Mail } from 'lucide-react'
+import { Home, User, Code, Mail, FileText } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const Navbar = () => {
@@ -6,6 +6,7 @@ const Navbar = () => {
         { icon: <Home size={24} />, label: 'Home', href: '#' },
         { icon: <Code size={24} />, label: 'Projects', href: '#projects' },
         { icon: <User size={24} />, label: 'About', href: '#about' },
+        { icon: <FileText size={24} />, label: 'Resume', href: `${import.meta.env.BASE_URL}resume.pdf`, download: true },
         { icon: <Mail size={24} />, label: 'Contact', href: '#contact' },
     ]
 
@@ -23,6 +24,7 @@ const Navbar = () => {
                         href={item.href}
                         className="p-3 text-spotify-grey hover:text-white hover:bg-white/10 rounded-full transition-all duration-300 group relative"
                         title={item.label}
+                        {...(item.download ? { download: "Omii_Chauhan_Resume.pdf", target: "_blank" } : {})}
                     >
                         {item.icon}
                         <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-spotify-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap border border-white/10">
