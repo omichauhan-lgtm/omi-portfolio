@@ -35,6 +35,17 @@ export const profile = {
     ],
     experience: [
         {
+            role: "Creator & Lead AI Engineer",
+            company: "Handshake AI",
+            period: "Aug 2026 -- Present",
+            location: "Remote / Open Source",
+            details: [
+                "Built an autonomous career intelligence platform leveraging deterministic AI pipelines and programmatic LLM generation.",
+                "Designed a custom Retrieval-Augmented Generation (RAG) system mapping semantic job requirements to candidate knowledge graphs.",
+                "Automated end-to-end processing pipelines including ATS keyword optimization and dynamic LaTeX document compilation."
+            ]
+        },
+        {
             role: "Open Source Contributor",
             company: "LangGraph (langchain-ai)",
             period: "Jul 2026 -- Present",
