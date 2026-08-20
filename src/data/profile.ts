@@ -36,7 +36,7 @@ export const profile = {
     experience: [
         {
             role: "Creator & Lead AI Engineer",
-            company: "Handshake AI",
+            company: "JobHunterAI",
             period: "Aug 2026 -- Present",
             location: "Remote / Open Source",
             details: [
